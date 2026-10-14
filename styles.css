@@ -65,13 +65,19 @@ a:hover { text-decoration: underline; }
 
 /* ===== Hero ===== */
 .hero {
-    background:
-        linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
-        url("images/nyc-skyline.jpg");
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.45),
+        rgba(255, 255, 255, 0.45)
+    ), url("./nyc-skyline.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 360px;
-
+    background-repeat: no-repeat;
+    min-height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
 }
   
 .hero-content {
