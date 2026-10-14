@@ -65,13 +65,7 @@ a:hover { text-decoration: underline; }
 
 /* ===== Hero ===== */
 .hero {
-    background-image: linear-gradient(
-        rgba(255, 255, 255, 0.45),
-        rgba(255, 255, 255, 0.45)
-    ), url("./nyc-skyline.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("nyc-skyline.jpg") center center / cover no-repeat;
     min-height: 375px;
     display: flex;
     align-items: center;
